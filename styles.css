@@ -381,9 +381,28 @@ body {
 
 .skill-group {
   padding: 20px;
-  border-radius: 18px;
-  background: var(--glass);
+  border-radius: 20px;
+  background: var(--card);
   border: 1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-group:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.skill-group h3 {
+  font-size: 1.05rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.skill-group .tag-row span {
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .impact-grid,
