@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B0F1A"/>
+  <circle cx="180" cy="120" r="140" fill="#54D6FF" fill-opacity="0.25"/>
+  <circle cx="1030" cy="90" r="160" fill="#FFB86B" fill-opacity="0.28"/>
+  <circle cx="920" cy="540" r="180" fill="#7AF3C7" fill-opacity="0.2"/>
+  <rect x="80" y="120" width="1040" height="390" rx="48" fill="rgba(17, 24, 39, 0.9)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="140" y="270" fill="#F9FAFB" font-family="Space Grotesk, sans-serif" font-size="64" font-weight="600">Mitesh Sahu</text>
+  <text x="140" y="340" fill="#CBD5F5" font-family="Space Grotesk, sans-serif" font-size="32">Software Engineer · Platform · Cloud</text>
+  <text x="140" y="410" fill="#7AF3C7" font-family="JetBrains Mono, monospace" font-size="22" letter-spacing="6">msahu.dev</text>
+</svg>
