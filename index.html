@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260618-hover-contrast" />
+    <link rel="stylesheet" href="styles.css?v=20260624-open-source" />
   </head>
   <body>
     <div class="ambient-bg"></div>
@@ -32,6 +32,7 @@
         <a class="logo" href="#top">MS</a>
         <nav class="nav-links">
           <a href="#projects">Projects</a>
+          <a href="#opensource">Open Source</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
@@ -160,6 +161,31 @@
             </div>
           </article>
         </div>
+      </section>
+
+      <section id="opensource" class="section container">
+        <div class="section-title">
+          <h2>Open Source</h2>
+          <p>Real-world contribution to large-scale infrastructure software.</p>
+        </div>
+        <article class="project-card open-source-card">
+          <div>
+            <p class="label">OpenObserve Contribution</p>
+            <h3>Multi-bucket S3 Storage Fix</h3>
+            <p>
+              Fixed a critical multi-bucket storage bug in OpenObserve, a 19.4k+ star
+              open-source observability platform. The change isolated instance-level AWS S3
+              prefixes and eliminated PermissionDenied failures across object operations.
+            </p>
+          </div>
+          <div class="tag-row">
+            <span>Rust</span>
+            <span>AWS S3</span>
+            <span>Multi-bucket Storage</span>
+            <span>Distributed Infra</span>
+            <span><a href="https://github.com/openobserve/openobserve/pull/10552" target="_blank" rel="noreferrer">View PR #10552</a></span>
+          </div>
+        </article>
       </section>
 
       <section id="experience" class="section container">

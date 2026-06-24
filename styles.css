@@ -479,6 +479,34 @@ body {
   color: var(--ink);
 }
 
+.open-source-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 18px;
+  background:
+    radial-gradient(circle at 92% 14%, rgba(15, 138, 75, 0.16), transparent 28%),
+    linear-gradient(135deg, #ffffff 0%, #f4fff5 100%);
+}
+
+.open-source-card::after {
+  content: "OSS";
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  color: rgba(15, 138, 75, 0.12);
+  font-family: var(--mono);
+  font-size: clamp(2.4rem, 8vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.open-source-card .tag-row {
+  justify-content: flex-end;
+  max-width: 380px;
+}
+
 .timeline {
   position: relative;
   display: grid;
@@ -726,9 +754,15 @@ body {
   }
 
   .section-title,
-  .contact-card {
+  .contact-card,
+  .open-source-card {
     grid-template-columns: 1fr;
     align-items: start;
+  }
+
+  .open-source-card .tag-row {
+    justify-content: flex-start;
+    max-width: none;
   }
 }
 
